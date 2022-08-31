@@ -1,5 +1,3 @@
-const score=(obj)=>{
-    return `<div><span>${obj.user}:${obj.score}</span></div>`
-  }
+const score = (obj) => `<div><span>${obj.user}:${obj.score}</span></div>`;
 
-  export default score;
+export default score;
